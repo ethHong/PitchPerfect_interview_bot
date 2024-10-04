@@ -1,7 +1,7 @@
 # PitchPerfect_interview_bot
 Interview &amp; Pitch preparation assistent powered by OpenAI API - Feedback on your answers and non-verbal communications.
 
-[![Video Title](https://img.youtube.com/vi/xA9jZJjejWQ/0.jpg)](https://youtu.be/xA9jZJjejWQ?feature=shared)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xA9jZJjejWQ?si=exaujM2cwe3FUaRx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Introduction
 * Gen AI powered (OpenAI AI API) job interview / pitch prep assistant.
