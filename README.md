@@ -13,7 +13,7 @@ Interview &amp; Pitch preparation assistent powered by OpenAI API - Feedback on 
 
 # Requirements
 * This app requires OpenAI API, so you need to add your own API KEY in api.txt
-* There are many required libraries, including Streamlit, PyAudio, OpenAI, Whisper. Recommend settin up virtual environment.
+* There are many required libraries, including Streamlit, PyAudio, OpenAI, OpenCV, Whisper. Recommend settin up virtual environment.
 * On your local setting:
 
   ```
