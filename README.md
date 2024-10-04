@@ -1,7 +1,7 @@
 # PitchPerfect_interview_bot
 Interview &amp; Pitch preparation assistent powered by OpenAI API - Feedback on your answers and non-verbal communications.
 
-<img width="856" alt="Screenshot 2024-10-04 at 1 11 46 AM" src="https://github.com/user-attachments/assets/ac9f3934-bceb-4ab9-9bdd-e3f611b81e95">
+<img width="400" alt="Screenshot 2024-10-04 at 1 11 46 AM" src="https://github.com/user-attachments/assets/ac9f3934-bceb-4ab9-9bdd-e3f611b81e95">
 
 # Introduction
 ## Demo Video
