@@ -54,7 +54,7 @@ def fit_prompt_to_api_calls(text_prompt, images):
     format[0]["content"] = contents
     return format
 
-# This process refers to the documentation of OpenAI: https://platform.openai.com/docs/guides/vision
+
 def gen_AI_call(call):
 
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
@@ -62,7 +62,7 @@ def gen_AI_call(call):
     payload = {
         "model": "gpt-4o-mini",
         "messages": call,
-        "max_tokens": 300,
+        "max_tokens": 600,
     }
 
     response = requests.post(

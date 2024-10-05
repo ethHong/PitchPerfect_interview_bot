@@ -47,7 +47,9 @@ def start_recording(init_time, fps=30, interval=3, time_limit=60, filename="audi
                 f"## Time left: {int(remaining_time)} seconds"
             )
         else:
-            message.write("Time limit reached. Stopping recording...")
+            message.write(
+                "Time limit reached. Stopping recording and analyzing your response"
+            )
             break
 
         ret, frame = cap.read()  # Capture frame
@@ -66,6 +68,7 @@ def start_recording(init_time, fps=30, interval=3, time_limit=60, filename="audi
 
     cap.release()
 
+    audio_thread.join()  # Wait till audio file to be saved.
     ### Here, we give the output
 
     text = whisper_ai(audio_filename)

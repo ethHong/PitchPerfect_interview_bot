@@ -35,7 +35,7 @@ company = st.text_input("Just casually put lists of them!", "Amazon, Google, Met
 st.subheader("⏱️Time limits")
 time_option = st.selectbox(
     "Once you start, you should stay until end of time to see results",
-    (10, 30, 60, 300),
+    (10, 30, 60, 180, 300),
 )
 
 start_rec = st.button("Start!")
